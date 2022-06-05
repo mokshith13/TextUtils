@@ -25,7 +25,7 @@ function App() {
     if (mode === "light") {
       setmode("dark");
       document.body.style.backgroundColor = "#072039";
-      showAlert("Dark mode as enabled", "success");
+      showAlert("Dark mode has enabled", "success");
       //document.title = "TextUtils - dark mode";
       //  setInterval(()=>{
       //   document.title = "TextUtils is Amazing";
@@ -36,7 +36,7 @@ function App() {
     } else {
       setmode("light");
       document.body.style.backgroundColor = "white";
-      showAlert("Light mode as enabled", "success");
+      showAlert("Light mode has enabled", "success");
       //document.title = "TextUtils - light mode";
     }
   }
